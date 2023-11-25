@@ -8,7 +8,8 @@ Take into consideration:
 * The execution command is:
 `python <linkedin user name> <linkedin pasword> <name of the file>`
 
-The csv file with the names have to have the structure:
+The csv file with the names has to have the structure:
+
 <div align="center">
 
 mis_names,  
