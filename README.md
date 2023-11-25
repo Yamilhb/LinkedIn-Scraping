@@ -11,12 +11,12 @@ Take into consideration:
 The csv file with the names have to have the structure:
 <div align="center">
 
-mis_names,
-nombre2,
-nombre2,
-nombre3,
-...
-nombre*n*
+mis_names,  
+nombre2,  
+nombre2,  
+nombre3,  
+...  
+nombre*n*  
 
 
 </div>
