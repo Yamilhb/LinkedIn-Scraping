@@ -82,8 +82,8 @@ for nombre in mis_names:
                 WebDriverWait(driver, 5)\
                     .until(EC.element_to_be_clickable((By.CSS_SELECTOR,
                                                     'textarea.ember-text-area ember-view connect-button-send-invite__custom-message mb3'.replace(' ','.'))))\
-                    .send_keys(f'Hola {nombre_amensajado.split(" ")[0]}!\nSoy parte del equipo de Bci Labs y quiero invitarte a conectar con nosotros y seguirnos: https://www.linkedin.com/company/bci-labs/.\n\
-        Podrás explorar las últimas tendencias en tecnología e innovación y conocer las iniciativas que estamos desarrollando.\nTe esperamos, un saludo!')
+                    .send_keys(f'Hola {nombre_amensajado.split(" ")[0]}!\nSoy parte del equipo de Bci Labs y e invito a seguirnos: https://www.linkedin.com/company/bci-labs/\n\
+Podrás explorar tendencias en innovación y nuestras última iniciativas\nUn saludo!')
                 #Envío la invitación con el mensaje.
                 WebDriverWait(driver, 5)\
                     .until(EC.element_to_be_clickable((By.CSS_SELECTOR,
